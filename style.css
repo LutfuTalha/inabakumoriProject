@@ -1,0 +1,219 @@
+
+body{
+    cursor: url(./cursor.png), auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+
+.Lagtrain-bg{
+    /* background-image: url(./lagtrain_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: black;
+    animation: back-to-black 1.5s linear forwards;
+    height: 40vw;
+    position: relative;
+    border-bottom: 10px inset grey;
+}
+
+@keyframes back-to-black{
+    50%{
+        background-color: rgb(178,178,178);
+    }
+    100% {
+        background-image: url(./lagtrain_bg.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+#youtube:link{text-decoration: none;color: grey;}
+#youtube:visited{color: grey;}
+#youtube:active{color: red;}
+#youtube:hover{color: red;}
+
+#twitter:link{text-decoration: none;color: grey;}
+#twitter:visited{color: grey;}
+#twitter:active{color: blue;}
+#twitter:hover{color: blue;}
+
+#deezer:link{text-decoration: none;color: grey;}
+#deezer:visited{color: grey;}
+#deezer:active{color: purple;}
+#deezer:hover{color: purple;}
+
+#spotify:link{text-decoration: none; color: grey;}
+#spotify:visited{color: grey;}
+#spotify:active{color: green;}
+#spotify:hover{color: green;}
+
+#mylastbraincell{
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#mylastbraincell:visited{color: grey;}
+#mylastbraincell:link{text-decoration: none; color: grey;}
+#mylastbraincell:active{color: yellow;}
+#mylastbraincell:hover{color: yellow;}
+
+.links{
+    position: absolute;
+    top: 565px;
+    background-color:black;
+    opacity: .8;
+    border-radius: 3%;
+    box-shadow: 0px 3px 3px grey;
+    margin-left: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+#name{
+    font-size: 20px;
+    color: grey;
+   
+}
+
+i{
+    font-size: 35px;
+}
+
+
+.parralax-bg{
+    background-color: black;
+    height: auto;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.parralax-bg > div {
+    background-color: transparent;
+}
+
+.outnow{
+    border-radius: 5%;
+    background-image: url(./outnow.jpg);
+    height: 500px;
+    background-size: 100% 100%;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px black;
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 15px;
+  
+
+}
+
+
+#out-now:hover{
+    opacity: 1;
+}
+
+#linka{
+    font-family: "Protest Strike", sans-serif;
+}
+
+#linka:visited{
+    color: black
+}
+#linka:active{
+    color: rgb(87, 220, 220);
+}
+#linka:link{
+    text-decoration: none;
+}
+
+#out-now{
+    background-color: grey;
+    background-size: contain;
+    opacity: 0.7;
+    margin-top: 450px;
+    font-size: 40px;
+    display: flex;
+    border: 1px solid grey;
+}
+
+.ytandrest{
+    display: flex;
+    border: 1px solid black;
+}
+
+.ytandrest > div{
+    border: 1px solid black;
+}
+
+.gifandabout{
+    flex:0 0 50%;
+    height: auto;
+}
+
+.gif{
+    background-image: url(./train.gif);
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    border: 5px solid rgb(56, 56, 56);
+    border-radius: 5%;
+    width: 90%;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+
+
+.about{
+    width: 80%;
+    margin-left: 70px;
+    text-align: center;
+    background-color: grey;
+   
+    margin-bottom: 5px;
+    border: 5px solid rgb(56, 56, 56);
+    border-top: none;
+    border-radius: 2%;
+}
+.yt{
+    width: 100%;
+}
+
+#vidi1{
+    margin-left: 100px;
+}
+.vid1{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 5px dotted grey;
+    border-top: 5px dotted grey;
+    color: grey;
+    font-size: larger;
+}
+#vidi2{
+    margin-left: 100px;
+}
+.vid2{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 5px dotted grey;
+    color: grey;
+    font-size: larger;
+}
+#vidi3{
+    margin-left: 100px;
+}
+.vid3{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: grey;
+    font-size: larger;
+}
